@@ -1,0 +1,39 @@
+/* CSS rules lesson 2.1, CSS Rules */
+
+h1 { font-size: 3em; }
+h2 { font-family: helvetica, arial, sans-serif; }
+h3 { color: red; }
+h4 { background-color: #ffff00; }
+p  { line-height: 1.5em; }
+ul { border: 1px solid red; }
+ol { font-style: italic; }
+li { font-weight: bold; }
+blockquote { width: 20em; }
+
+/* CSS rules lesson 2.2, Multiple Selectors */
+
+h1, h2, h3, h4, h5, h6 { border: 1px solid red; }
+
+/* CSS rules lesson 2.3, Multiple Declarations */
+
+h1 
+{
+    color: red;
+    margin: 0;
+}
+
+p 
+{
+    background: yellow;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+/* CSS rules lesson 2.4, CSS Comments */
+
+/* CSS comment */
+/*
+CSS comment
+across multiple lines
+*/
