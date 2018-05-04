@@ -3,7 +3,7 @@
 h1 { font-size: 3em; }
 h2 { font-family: helvetica, arial, sans-serif; }
 h3 { color: red; }
-h4 { background-color: #ffff00; }
+h4 { background-color: lightblue; }
 p  { line-height: 1.5em; }
 ul { border: 1px solid red; }
 ol { font-style: italic; }
