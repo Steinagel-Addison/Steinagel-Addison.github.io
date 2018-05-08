@@ -1,24 +1,26 @@
 /* CSS rules lesson 2.1, CSS Rules */
 
+body { background: #EEE; }
+
 h1 { font-size: 3em; }
 h2 { font-family: helvetica, arial, sans-serif; }
-h3 { color: red; }
+h3 { color: black; }
 h4 { background-color: lightblue; }
 p  { line-height: 1.5em; }
-ul { border: 1px solid red; }
+ul { border: 1px solid black; }
 ol { font-style: italic; }
 li { font-weight: bold; }
 blockquote { width: 20em; }
 
 /* CSS rules lesson 2.2, Multiple Selectors */
 
-h1, h2, h3, h4, h5, h6 { border: 1px solid red; }
+h1, h2, h3, h4, h5, h6 { border: 1px solid black; }
 
 /* CSS rules lesson 2.3, Multiple Declarations */
 
 h1 
 {
-    color: red;
+    color: black;
     margin: 0;
 }
 
