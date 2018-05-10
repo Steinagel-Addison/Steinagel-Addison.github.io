@@ -9,26 +9,162 @@
     </head>
     
     <body>
-        <h1>Addison Steinagel</h1>
-        <h2>My Location: Payson, Utah</h2>
-        <h3>My Major: Software Engineering</h3>
-        <h4>My Favorite Color: Blue</h4>
-        <p>My Favorite Foods:</p>
-        <ul>
-            <li>Steak</li>
-            <li>Pizza</li>
-            <li>Empanadas</li>
-        </ul>
-        <p>My Favorite Movies</p>
-        <ol>
-            <li>Braveheart</li>
-            <li>The Matrix</li>
-            <li>The Burbs</li>
-        </ol>
-        <p class="system ram">My system RAM: 16 GB</p>
-        <p class="image"><img src="images/face.png" alt="Profile Picture"></p>
-        <p class="link">&star; <a href="https://www.byui.edu/online">BYU-Idaho Online Learning</a> &star;</p>
-        <p>I'm looking forward to this course!</p>
-        <blockquote>"Whatever you are, be a good one.  Whatever you aren't, be a not good one."</blockquote>
+        <header>
+            <h1>Addison Steinagel</h1>
+        </header>
+        
+        <nav>
+            <h2>My Location: Payson, Utah</h2>
+            <h3>My Major: Software Engineering</h3>
+            <h4>My Favorite Color: Blue</h4>
+        </nav>
+        
+        <main>
+            <article>
+                <p>My Favorite Foods:</p>
+                <ul>
+                    <li>Steak</li>
+                    <li>Pizza</li>
+                    <li>Empanadas</li>
+                </ul>
+            </article>
+            <article>
+            <p>My Favorite Movies</p>
+                <ol>
+                    <li>Braveheart</li>
+                    <li>The Matrix</li>
+                    <li>The Burbs</li>
+                </ol>
+            </article>
+            
+            <p class="system ram">My system RAM: 16 GB</p>
+            <p class="image"><img src="images/face.png" alt="Profile Picture"></p>
+           
+            <p>Table Example:</p>
+            <table>
+            <caption>Shopping cart</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Product</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col">Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Product 1</td>
+                        <td>$10.00</td>
+                        <td>2</td>
+                        <td>$20.00</td>
+                    </tr>
+                    <tr>
+                        <td>Product 2</td>
+                        <td>$5.00</td>
+                        <td>1</td>
+                        <td>$5.00</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            Shipping and Handling  
+                        </td>
+                        <td>
+                            $5.00
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" colspan="3">Discount</td>
+                        <td>10%</td>
+                    </tr>
+                    <tr>
+                        <td>- $3.00</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Grand total</td>
+                        <td>$27.00</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <p>Form example</p>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Contact Info</legend>
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" placeholder="Your Name" id="name">
+                    </div>
+                    <div>
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div>
+                        <label for="tel">Telephone</label>
+                        <input type="tel" name="tel" id="tel">
+                    </div>
+                    <div>
+                        <label for="city">City</label>
+                        <input type="text" name="city" id="city">
+                    </div>
+                    <div>
+                        <label for="state">State</label>
+                        <select name="state" id="state">
+                            <option value="">-- Choose --</option>
+                            <optgroup label="USA">
+                                <option value="">Utah</option>
+                                <option value="">California</option>
+                                <option value="">Texas</option>
+                            </optgroup>
+                            <optgroup label="Narnia">
+                                <option value="">Spare Oom</option>
+                                <option value="">East</option>
+                                <option value="">West</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Other Info</legend>
+                    <div>
+                        <label>Gender</label>
+                        <label>
+                            <input type="radio" name="gender" value="m"> M
+                        </label>
+                        <label>
+                            <input type="radio" name="gender" value="f"> F
+                        </label>
+                    </div>
+                    <div>
+                        <label>Certifications</label>
+                        <label>
+                            <input type="checkbox" name="certifications" value="1"> Option 1
+                        </label>
+                        <label>
+                            <input type="checkbox" name="certifications" value="2"> Option 2
+                        </label>
+                        <label>
+                            <input type="checkbox" name="certifications" value="3"> Option 3
+                        </label>
+                    </div>
+                    <div>
+                        <label for="file">CV</label>
+                        <input type="file" name="file" id="file">
+                    </div>
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                </fieldset>
+                <input type="submit" value="Send">
+                <button type="submit">Send</button>
+            </form>          
+        </main>
+        <footer>
+            <p class="link">&star; <a href="https://www.byui.edu/online">BYU-Idaho Online Learning</a> &star;</p>
+            <p>I'm looking forward to this course!</p>
+        </footer>
+        <aside>
+            <blockquote>"Whatever you are, be a good one.  Whatever you aren't, be a not good one."</blockquote>
+        </aside>
     </body>
 </html>

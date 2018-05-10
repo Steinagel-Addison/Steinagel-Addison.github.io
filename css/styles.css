@@ -32,6 +32,10 @@ p
     margin-bottom: 40px;
 }
 
+table, th, td {
+    border: 1px solid #666;
+    border-collapse: collapse;
+}
 /* CSS rules lesson 2.4, CSS Comments */
 
 /* CSS comment */
